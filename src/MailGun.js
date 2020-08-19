@@ -13,7 +13,7 @@ module.exports = class MailGun{
     const mailOptions = {
       from: process.env.FROM_EMAIL,
       to: mail,
-      subject: 'Message from SoftServe LMS',
+      subject: 'Message from test task - Niko',
       html: `<p>${message}</p>`,
       attachments
     };
