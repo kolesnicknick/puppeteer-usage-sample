@@ -15,7 +15,7 @@ let browser;
 let page;
 
 const options = {
-  headless: false,
+  headless: true,
   userDataDir: './userMetaData',
 }
 before(async () => {
